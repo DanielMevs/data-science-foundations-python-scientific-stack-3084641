@@ -18,3 +18,5 @@ def polyn_jit(n):
     return total
 
 %timeit -n 10_000 polyn_jit(1000)
+
+# %%

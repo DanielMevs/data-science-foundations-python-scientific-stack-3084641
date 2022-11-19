@@ -46,3 +46,5 @@ def top50(col):
     ]
 
 df.style.apply(top50) 
+
+# %%

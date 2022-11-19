@@ -16,3 +16,4 @@ plt.plot(xs, ys)
 # %%
 plt.style.use('fivethirtyeight')
 plt.plot(xs, ys)
+# %%

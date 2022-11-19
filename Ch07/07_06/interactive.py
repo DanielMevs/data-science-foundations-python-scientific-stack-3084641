@@ -19,7 +19,9 @@ def plot_sin(limit):
 # %%
 from ipywidgets import IntSlider
 
-@interact(limit=IntSlider(min=0, max=20))
+@interact(limit=IntSlider(value=10, min=0, max=20))
 def plot_sin(limit):
     xs = np.linspace(-limit, limit, 100)
     plt.plot(xs, np.sin(xs), label='sin(x) [-%s - %s]' % (limit, limit))
+
+# %%

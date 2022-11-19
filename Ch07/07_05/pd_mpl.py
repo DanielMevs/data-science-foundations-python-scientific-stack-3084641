@@ -30,3 +30,4 @@ ax.set_xticklabels(
 )
 ax.set_xlabel('Weekday')
 ax.set_ylabel('Volume')
+# %%

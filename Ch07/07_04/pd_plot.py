@@ -26,3 +26,4 @@ msft['Close'].plot.kde()
     .sum()
     .plot.bar(xticks=range(12), rot=0)
 )
+# %%
